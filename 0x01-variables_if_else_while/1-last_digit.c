@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/**
+ * main - main function
+ * Return: returns 0 on success
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
