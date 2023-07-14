@@ -11,15 +11,15 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		printf("%c", i);
+		putchar(i);
 		i++;
 	}
 
 	while (j <= 'Z')
 	{
-		printf("%c", j);
+		putchar(j);
 		j++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }

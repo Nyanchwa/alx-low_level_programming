@@ -10,10 +10,13 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		printf("%c", i);
+		if (i != 'q' && i != 'e')
+		{
+			putchar(i);
+		}
 		i++;
 	}
 
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
