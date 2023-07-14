@@ -10,8 +10,10 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		if (i == 'q' || i == 'e')
+		if (i == 'e' || i == 'q')
+		{
 			continue;
+		}
 		printf("%c", i);
 		i++;
 	}
