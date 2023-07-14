@@ -12,10 +12,10 @@ int main(void)
 	{
 		if (i == 'q' || i == 'e')
 			continue;
-		putchar(i);
+		printf("%c", i);
 		i++;
 	}
 
-	putchar("\n");
+	printf("\n");
 	return (0);
 }
