@@ -4,7 +4,7 @@
  * main - main function
  * Return; 0 on success
  */
-int main(voi)
+int main(void)
 {
 	int i = 48;
 
