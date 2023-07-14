@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
+#include <limits.h>
 
 /**
  * main - main program
@@ -14,7 +16,7 @@ int main(void)
 
 	if (n < 0)
 	{
-		printf("%d is negativei", n);
+		printf("%d is negative", n);
 	}
 	else if (n > 0)
 	{
