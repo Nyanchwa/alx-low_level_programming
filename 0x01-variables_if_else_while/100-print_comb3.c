@@ -15,10 +15,11 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			if (j == 57)
-				break;
-			putchar(',');
-			putchar(' ');
+			if (i != 56 || j != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
