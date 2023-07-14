@@ -16,7 +16,7 @@ int main(void)
 
 	while (j <= 102)
 	{
-		puchar(j);
+		putchar(j);
 	}
 	putchar('\n');
 
