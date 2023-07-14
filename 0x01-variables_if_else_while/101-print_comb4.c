@@ -12,15 +12,15 @@ int main(void)
 
 	for (i = 48; i <= 55; i++)
 	{
-		putchar(i);
 		for (j = 49; j <= 56; j++)
 		{
-			putchar(j);
 			for (k = 50; k <= 57; k++)
 			{
+				putchar(i);
+				putchar(j);
+				putchar(k);
 				if (k == 57)
 					break;
-				putchar(k);
 				putchar(',');
 				putchar(' ');
 			}
