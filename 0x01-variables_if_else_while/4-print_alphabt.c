@@ -10,12 +10,11 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		if (i == 'e' || i == 'q')
+		if (i != 'e' && i != 'q')
 		{
-			continue;
+			printf("%c", i);
+			i++;
 		}
-		printf("%c", i);
-		i++;
 	}
 
 	printf("\n");
