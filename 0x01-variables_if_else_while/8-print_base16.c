@@ -12,11 +12,13 @@ int main(void)
 	while (i <= 57)
 	{
 		putchar(i);
+		i++;
 	}
 
 	while (j <= 102)
 	{
 		putchar(j);
+		j++;
 	}
 	putchar('\n');
 
