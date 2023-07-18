@@ -14,31 +14,33 @@ void jack_bauer(void)
 		{
 			if (i < 10 && j < 10)
 			{
-				_putchar(0);
-				_putchar(i);
+				_putchar(48);
+				_putchar(48 + i);
 				_putchar(58);
-				_putchar(0);
-				_putchar(j);
+				_putchar(48);
+				_putchar(48 + j);
+				_putchar('\n');
 			}
 			else if (i < 10 && j > 9)
 			{
-				_putchar(0);
-				_putchar(i);
+				_putchar(48);
+				_putchar(48 + i);
 				_putchar(58);
-				_putchar(j);
+				_putchar(48 + j);
+				_putchar('\n');
 			}
 			else if (i > 9 && j < 10)
 			{
-				_putchar(i);
+				_putchar(48 + i);
 				_putchar(58);
-				_putchar(0);
-				_putchar(j);
+				_putchar(48);
+				_putchar(48 + j);
 			}
 			else
 			{
-				_putchar(i);
+				_putchar(48 + i);
 				_putchar(58);
-				_putchar(j);
+				_putchar(48 + j);
 			}
 		}
 	}
