@@ -5,7 +5,7 @@
  * @c: number or char
  * Return: zero on success
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
 	{
