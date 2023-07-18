@@ -14,7 +14,15 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			k = j + i;
-			printf("%d", k);
+			if (k > 10)
+			{
+				_putchar(48 + k / 10);
+				_putchar(48 + k % 10);
+			}
+			else
+			{
+				_putchar(48 + k);
+			}
 		}
 	}
 }
