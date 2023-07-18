@@ -41,7 +41,7 @@ void print_to_98(int n)
 		while (n > 98)
 		{
 			_putchar(48 + n / 100);
-			_putchar(48 + n / 10);
+			_putchar(48 + n % 100);
 			_putchar(48 + n % 10);
 			_putchar(',');
 			_putchar(' ');
