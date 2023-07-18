@@ -9,10 +9,10 @@ void print_times_table(int n)
 	int j;
 	int k;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i <= n; i++)
 	{
 		_putchar(48);
-		for (j = 1; j < n; j++)
+		for (j = 1; j <= n; j++)
 		{
 			k = j * i;
 			if (k >= 10)
