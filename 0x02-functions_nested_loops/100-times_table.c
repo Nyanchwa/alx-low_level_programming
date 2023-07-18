@@ -19,12 +19,14 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
 				_putchar(48 + k / 10);
 				_putchar(48 + k % 10);
 			}
 			else
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(48 + k);
