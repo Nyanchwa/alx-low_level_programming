@@ -6,30 +6,21 @@
  */
 int main(void)
 {
-	int i = 0;
-	int j = 0;
+	int i = 1;
+	int j = 2;
+	int next;
 	int k;
 
-	while (i < 50)
+	printf("%d, %d", i, j);
+
+	for (k = 3; k <= 50; k++)
 	{
-		if (j < 10)
-		{
-			k = j % 10;
-			if (k == 1 || k == 2)
-			{
-				printf("%d, ", j);
-			}
-		}
-		else if (j < 99)
-		{
-			k = j / 10;
-			if (k == 1 || k == 2)
-			{
-				printf("%d, ", j);
-			}
-		}
-		i++;
+		next = i + j;
+		printf(", %d", next);
+		i = j;
+		j = next;
 	}
+	printf("\n");
 
 	return (0);
 }
