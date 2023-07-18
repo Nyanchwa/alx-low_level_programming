@@ -10,7 +10,7 @@ int _abs(int i)
 
 	if (i > 0)
 	{
-		while (i >= 0)
+		while (i > 0)
 		{
 			abs++;
 			i--;
@@ -18,7 +18,7 @@ int _abs(int i)
 	}
 	else if (i < 0)
 	{
-		while (i <= 0)
+		while (i < 0)
 		{
 			abs++;
 			i++;
