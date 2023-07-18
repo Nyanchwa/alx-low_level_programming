@@ -4,7 +4,7 @@
  * main - main funnction
  * Return: zero on success
  */
-int main(*void)
+int main(void)
 {
 	printf("_putchar");
 	return (0);
