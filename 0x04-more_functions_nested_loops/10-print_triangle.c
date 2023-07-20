@@ -7,6 +7,7 @@ void print_triangle(int size)
 {
 	int i;
 	int j;
+	int k;
 
 	if (size <= 0)
 	{
@@ -15,11 +16,16 @@ void print_triangle(int size)
 
 	for (i = 1; i <= size; i++)
 	{
-		for (j = 1; j < size; j++)
+		for (j = (size - i); j >0; j--)
 		{
 			_putchar(' ');
 		}
-		_putchar('#');
+		k = (size - );
+		while (k < size)
+		{
+			_putchar('#');
+			k++;
+		}
 		_putchar('\n');
 	}
 }
