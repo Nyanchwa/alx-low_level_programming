@@ -9,11 +9,10 @@ void print_most_numbers(void)
 
 	while (i <= 57)
 	{
-		if (i == 50 || i == 52)
+		if (i != 50 && i 1= 52)
 		{
-			continue;
+			_putchar(i);
 		}
-		_putchar(i);
 		i++;
 	}
 	_putchar('\n');
