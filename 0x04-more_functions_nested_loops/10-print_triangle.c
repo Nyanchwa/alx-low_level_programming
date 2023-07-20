@@ -2,6 +2,7 @@
 
 /**
  * print_triangle - prints a triangle
+ * @size: int
  */
 void print_triangle(int size)
 {
@@ -16,7 +17,7 @@ void print_triangle(int size)
 
 	for (i = 1; i <= size; i++)
 	{
-		for (j = (size - i); j >0; j--)
+		for (j = (size - i); j > 0; j--)
 		{
 			_putchar(' ');
 		}
