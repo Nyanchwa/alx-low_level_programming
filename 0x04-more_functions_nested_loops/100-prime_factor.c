@@ -9,7 +9,7 @@ int main(void)
 {
 	long int n;
 	long int max;
-	long int x;
+	long int i;
 
 	n = 612852475143;
 	max = -1;
