@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _puts - writes a string to STDOUT
+ * puts2 - writes a string to STDOUT
  * @str: adress
  */
-void _puts(char *str)
+void puts2(char *str)
 {
 	char c;
 
