@@ -14,7 +14,7 @@ void puts2(char *str)
 	while (*c != '\0')
 	{
 		c++;
-		i++:
+		i++;
 	}
 	t = i - 1;
 	for (o = 0; o <= t; o++)
