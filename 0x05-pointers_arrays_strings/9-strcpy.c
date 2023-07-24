@@ -26,4 +26,5 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 	_putchar('\n');
+	return (dest);
 }
