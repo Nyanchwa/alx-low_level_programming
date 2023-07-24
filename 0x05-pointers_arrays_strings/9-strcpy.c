@@ -16,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 		len++;
 	}
 
-	while (i <= len)
+	while (i < len)
 	{
 		if (i == len)
 		{
