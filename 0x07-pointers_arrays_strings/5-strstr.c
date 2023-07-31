@@ -2,8 +2,8 @@
 
 /**
  * _strstr - function
- * @haystack - string
- * @neeedle - string
+ * @haystack: string
+ * @neeedle: string
  * Return: pointer
  */
 char *_strstr(char *haystack, char *needle)
