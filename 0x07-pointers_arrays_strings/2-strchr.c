@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr _ string char
+ * _strchr - string char
  * @s: string
  * @c: char
  * Return: pointer
