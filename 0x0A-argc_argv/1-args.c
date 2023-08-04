@@ -11,6 +11,18 @@
 
 int main(int argc, char *argv[])
 {
+	int i = 0;
+
+	while (argv)
+	{
+		i++;
+		if (i < argc)
+		{
+			break;
+		}
+		argv++;
+	}
+
 	printf("%d\n", argc - 1);
 
 	return (0);
