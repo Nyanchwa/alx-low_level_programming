@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 		}
 	}
 	len = j + i;
-	buffer = malloc(len * sizeof(char));
+	buffer = malloc((len + 1) * sizeof(char));
 	if (buffer == NULL)
 	{
 		return (NULL);
