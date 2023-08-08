@@ -9,11 +9,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *buffer;
-	int len = 0;
-	int i = 0;
-	int j = 0;
-	int k = 0;
-	int l = 0;
+	int len = 0, i = 0, j = 0, k = 0, l = 0;
 
 	if (s1 == NULL)
 	{
@@ -23,7 +19,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-
 	if (s1 != NULL)
 	{
 		for (i = 0; s1[i];)
@@ -50,7 +45,7 @@ char *str_concat(char *s1, char *s2)
 		{
 			buffer[k] = s1[k];
 		}
-		else if (k >=i && k < len)
+		else if (k >= i && k < len)
 		{
 			buffer[k] = s2[l];
 			l++;
